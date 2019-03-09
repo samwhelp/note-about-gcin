@@ -7,6 +7,13 @@
 * 移除
 	* [如何完整移除](remove.md)
 
+* eliu套件庫
+	* [操作項目](eliu-repository.md)
+	* [add key](eliu-repository-add-key.md)
+	* [加入eliu套件庫來源](eliu-repository-add.md)
+	* [移除eliu套件庫來源](eliu-repository-del.md)
+
+
 * 關於
 	* [如何觀看本文件](howto-read.md)
 	* [docsify.js](docsify.md)
