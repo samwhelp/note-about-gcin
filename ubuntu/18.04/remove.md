@@ -21,7 +21,9 @@ sudo dpkg -P $(dpkg -l | grep gcin | awk '{print $2}' | awk -F ':' '{print $1}')
 ## 注意
 
 若系統上沒有安裝「gcin」，執行「`dpkg -l | grep gcin | awk '{print $2}'`」 會得到空的列表。
+
 所以執行「`sudo dpkg -P $(dpkg -l | grep gcin | awk '{print $2}')`」就會得到下面的訊息。
+
 這是正常的現象，切勿驚慌。
 
 ```
