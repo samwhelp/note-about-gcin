@@ -67,3 +67,8 @@ ls /var/lib/apt/lists/ | grep gcin
 ```
 
 沒有顯示，直接跳下一個「命令提示字元」。
+
+
+## 相關工具
+
+* tool/prototype/eliu-repository/[eliu-repository-add.sh](https://github.com/samwhelp/note-about-gcin/blob/gh-pages/ubuntu/18.04/tool/prototype/eliu-repository/eliu-repository-add.sh)

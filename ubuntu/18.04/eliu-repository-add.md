@@ -86,3 +86,7 @@ hyperrate.com_gcin-ubuntu1804_dists_eliu_release_binary-amd64_Packages
 hyperrate.com_gcin-ubuntu1804_dists_eliu_release_binary-i386_Packages
 hyperrate.com_gcin-ubuntu1804_dists_eliu_Release.gpg
 ```
+
+## 相關工具
+
+* tool/prototype/eliu-repository/[eliu-repository-add.sh](https://github.com/samwhelp/note-about-gcin/blob/gh-pages/ubuntu/18.04/tool/prototype/eliu-repository/eliu-repository-add.sh)

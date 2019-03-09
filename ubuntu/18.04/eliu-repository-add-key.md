@@ -22,3 +22,5 @@ gpg: key 5C577D59835AB0E3: "Edward Liu (my gpg) <eliu@hyperrate.com>" not change
 gpg: Total number processed: 1
 gpg:              unchanged: 1
 ```
+
+## 相關工具 「tool/prototype/eliu-repository/[eliu-repository-add-key.sh](https://github.com/samwhelp/note-about-gcin/blob/gh-pages/ubuntu/18.04/tool/prototype/eliu-repository/eliu-repository-add-key.sh)」。
