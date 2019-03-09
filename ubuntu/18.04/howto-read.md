@@ -22,4 +22,4 @@ make serve-daemon
 make view
 ```
 
-就會開啟「firefox」，觀看「http://localhost:8080/」。
+就會開啟「firefox」，觀看「[http://localhost:8080/](http://localhost:8080/)」。
