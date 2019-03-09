@@ -113,7 +113,22 @@ sudo dpkg -P $(dpkg -l | grep gcin | awk '{print $2}')
 
 > 再安裝「eliu 套件庫裡的 gcin」，會發生「套件相依卡住」的情形。
 
-> 所以記得先移除系統上的「gcin」以及「gcin」相關的套件。
+> 會看到類似如下的訊息。
+
+```
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ gcin : Depends: gcin-im-client (>= 2.8.8+eliu-2) but it is not going to be installed
+ gcin-qt4-immodule : Depends: gcin-im-client (>= 2.8.8+eliu-2) but it is not going to be installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+```
+
+> 當看到這樣的訊息時，處理的方式，一樣執行上面的指令，先移除舊有的gcin。
+
+> 因此記得安裝「eliu」的版本前，先移除系統上舊有的「gcin」以及「gcin」相關的套件。
 
 
 
