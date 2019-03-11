@@ -7,14 +7,14 @@
 * 移除
 	* [如何完整移除](remove.md)
 
-* eliu套件庫
+* 套件庫 - eliu
 	* [操作項目](eliu-repository.md)
 	* [add key](eliu-repository-add-key.md)
 	* [加入eliu套件庫來源](eliu-repository-add.md)
 	* [移除eliu套件庫來源](eliu-repository-del.md)
 
-* gcin source
-	* [Donload](gcin-source.md)
+* 原始碼
+	* [Donload](gcin-source-eliu.md)
 
 * 工具
 	* [索引](tool.md)
