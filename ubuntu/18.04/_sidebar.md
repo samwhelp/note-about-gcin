@@ -16,6 +16,9 @@
 	* [加入eliu套件庫來源](eliu-repository-add.md)
 	* [移除eliu套件庫來源](eliu-repository-del.md)
 
+* 套件包
+	* [Donload](gcin-package-eliu.md)
+
 * 原始碼
 	* [Donload](gcin-source-eliu.md)
 
