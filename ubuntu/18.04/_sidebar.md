@@ -16,6 +16,9 @@
 * 原始碼
 	* [Donload](gcin-source-eliu.md)
 
+* 環境變數
+	* [如何檢查](environment.md)
+
 * 工具
 	* [索引](tool.md)
 
