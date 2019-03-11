@@ -18,7 +18,7 @@
 
 	$nodes = $xpath->query($query); // http://php.net/manual/en/domxpath.query.php
 
-	if (is_null($nodes)) {
+	if (is_null($nodes)) { // http://php.net/manual/en/function.is-null.php
 		return;
 	}
 
@@ -30,7 +30,7 @@
 
 		$source_file_name = $node->nodeValue;
 
-		if (!strstr($source_file_name, 'gcin')) {
+		if (!strstr($source_file_name, 'gcin')) { // http://php.net/manual/en/function.strstr.php
 			continue;
 		}
 
