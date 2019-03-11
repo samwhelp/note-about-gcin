@@ -43,3 +43,9 @@ Options marked [*] produce a lot of output - pipe it through 'less' or 'more' !
 * [#233](https://hyperrate.com/thread.php?tid=34371#34371)
 * [#228](https://hyperrate.com/thread.php?tid=34305#34305)
 * [#227](https://hyperrate.com/thread.php?tid=34304#34304)
+
+
+## 下一步
+
+* [回索引](all.md)
+* [如何安裝 gcin](install.md)

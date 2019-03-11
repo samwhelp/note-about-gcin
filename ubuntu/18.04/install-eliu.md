@@ -430,3 +430,11 @@ Do you want to install the software package? [y/N]:
 ```
 
 請填入「y」並按下「Enter」，就會執行安裝的動作了。
+
+
+## 下一步
+
+* [回索引](all.md)
+* [關於 eliu 套件庫來源操作](eliu-repository.md)
+* [如何完整移除系統上的「gcin」](remove.md)
+* [安裝 Ubutnu 預設套件庫裡的 gcin](install-default.md)

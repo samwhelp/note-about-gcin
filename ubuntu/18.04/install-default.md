@@ -128,3 +128,9 @@ ii  gcin-tables                                   2.8.5+dfsg1-4build4           
 ii  gcin-voice                                    0~20170223-1                                 all          gcin voice data
 ii  libgcin:amd64                                 2.8.5+dfsg1-4build4                          amd64        library for gcin
 ```
+
+## 下一步
+
+* [回索引](all.md)
+* [如何完整移除系統上的「gcin」](remove.md)
+* [安裝 eliu 套件庫裡的 gcin](install-eliu.md)
