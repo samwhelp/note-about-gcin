@@ -54,6 +54,9 @@ grep '=gcin' /usr/share/im-config/data/26_gcin.rc -n
 
 ## 如何檢查環境變數
 
+
+### 檢查系統環境變數
+
 所以若要檢查目前的環境變數，可以執行的指令
 
 舉例如下
@@ -87,6 +90,68 @@ env | grep '@im'
 
 ```
 XMODIFIERS=@im=gcin
+```
+
+### 檢查 gcin 接收到的 環境變數
+
+執行
+
+``` sh
+ps aux | grep gcin
+```
+
+顯示
+
+```
+user       1293  0.2  0.6 660804 54424 tty1     Sl+  20:15   0:26 /usr/bin/gcin
+```
+
+執行
+
+``` sh
+strings /proc/1293/environ | grep gcin
+```
+
+顯示
+
+```
+QT4_IM_MODULE=gcin
+GTK_IM_MODULE=gcin
+XMODIFIERS=@im=gcin
+QT_IM_MODULE=gcin
+```
+
+或是也可以執行
+
+``` sh
+pgrep gcin
+```
+
+顯示
+
+```
+1293
+```
+
+有就是可以執行下面指令
+
+```
+strings "/proc/$(pgrep gcin)/environ" | grep gcin
+```
+
+顯示
+
+```
+QT4_IM_MODULE=gcin
+GTK_IM_MODULE=gcin
+XMODIFIERS=@im=gcin
+QT_IM_MODULE=gcin
+```
+
+上面等同執行下面指令，「$(pgrep gcin)」會展開，得到「1293」。
+
+``` sh
+strings /proc/1293/environ | grep gcin
 ```
 
 
