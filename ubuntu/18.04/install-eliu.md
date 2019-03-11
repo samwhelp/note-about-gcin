@@ -385,6 +385,12 @@ gcin-tables_2.8.8+eliu-2_all.deb
 gcin-voice_0~20170223-1_all.deb
 ```
 
+> 可以對照下面網址，列出來的檔案
+
+* http://hyperrate.com/gcin-ubuntu1804/dists/eliu/release/binary-amd64/
+* http://hyperrate.com/gcin-ubuntu1804/dists/eliu/release/binary-amd64/Packages
+
+
 下載下來的「deb檔」，可以執行下面指令安裝
 
 ``` bash

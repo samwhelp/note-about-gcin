@@ -22,6 +22,9 @@
 * 環境變數
 	* [如何檢查](environment.md)
 
+* 探索
+	* [eliu套件庫裡的gcin套件包](explore-package-eliu.md)
+
 * 工具
 	* [列表](tool.md)
 

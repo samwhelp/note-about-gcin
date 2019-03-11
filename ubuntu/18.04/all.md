@@ -30,6 +30,9 @@
 
 * [如何檢查](environment.md)
 
+## 探索
+
+* [探索 eliu 套件庫 有哪些 Binary Package](explore-package-eliu.md)
 
 ## 工具
 

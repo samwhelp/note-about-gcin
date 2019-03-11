@@ -18,7 +18,10 @@
 
 ## gcin 相關連結
 
-* [官方討論區](https://hyperrate.com/dir.php?eid=67)
+* [gcin 官方討論區](https://hyperrate.com/dir.php?eid=67)
+* [gcin source code 下載處](https://hyperrate.com/gcin-source/)
+* [http://hyperrate.com/gcin-ubuntu1804/dists/eliu/release/binary-amd64/]
+* [http://hyperrate.com/gcin-ubuntu1804/dists/eliu/release/binary-amd64/Packages]
 
 
 ## 如何觀看本文件
